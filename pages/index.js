@@ -14,7 +14,7 @@ export default function Home() {
       
       <main className='max-w-xl leading-relaxed space-y-4'>
         <Picture />
-        <h1 className="text-2xl sm:text-3xl font-bold">Hi! I&apos;m Dan&nbsp;Black 👋</h1>
+        <h1 className="text-2xl sm:text-3xl font-bold font-jslab">Hi! I&apos;m Dan&nbsp;Black 👋</h1>
         <p>
           I&apos;m a full-stack software engineer at <a className="text-violet-800 hover:underline underline-offset-8 decoration-wavy font-semibold" href="https://www.chrobinson.com/en-us/" target="_blank" rel="noreferrer">CH&nbsp;Robinson</a> working on the <a className="text-violet-800 hover:underline underline-offset-8 decoration-wavy font-semibold" href="https://www.freightquote.com/" target="_blank" rel="noreferrer">Freightquote</a> application.
         </p>
