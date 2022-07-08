@@ -4,7 +4,7 @@ export default function SocialButton(props) {
   const { href, src, alt } = props;
 
   return (
-    <div className='hover:animate-pulse'>
+    <div>
       <a 
         href={href} 
         target='_blank' 
@@ -15,6 +15,7 @@ export default function SocialButton(props) {
           alt={alt}
           height='30'
           width='30'
+          className='opacity-30 hover:opacity-100 duration-200 ease-in-out'
         />
       </a>
     </div>
