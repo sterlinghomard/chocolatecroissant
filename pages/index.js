@@ -1,5 +1,6 @@
-import Head from 'next/head'
-import Picture from '../components/Picture'
+import Head from 'next/head';
+import Link from 'next/link';
+import Picture from '../components/Picture';
 
 export default function Home() {
   return (
@@ -11,7 +12,6 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      
       <main className='max-w-xl leading-relaxed space-y-4'>
         <Picture />
         <h1 className="text-2xl sm:text-3xl font-bold font-jslab">Hi! I&apos;m Dan&nbsp;Black 👋</h1>
@@ -23,7 +23,11 @@ export default function Home() {
         </p>
         <p>A couple quick things I enjoy:</p>
         <ul>
-          <li>📚 Reading</li>
+          <li className='hover:cursor-pointer'>
+            <Link href='books'>
+              <span className='link-style'>📚 Reading</span>
+            </Link>
+          </li>
           <li>🏋️‍♂️ Exercising</li>
           <li>☀️ Sunshine</li>
           <li>💻 Learning new things</li>
