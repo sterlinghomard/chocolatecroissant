@@ -7,14 +7,14 @@ export default function Home() {
     <div className='flex-grow'>
 
       <Head>
-        <title>Dan Black</title>
+        <title>Sterling Homard</title>
         <meta name="description" content="My personal website" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className='max-w-xl leading-relaxed space-y-4'>
         <Picture />
-        <h1 className="text-2xl sm:text-3xl font-bold font-jslab">Hi! I&apos;m Dan&nbsp;Black 👋</h1>
+        <h1 className="text-2xl sm:text-3xl font-bold font-jslab">Hi! I'm Sterling Homard</h1>
         <p>
           I&apos;m a full-stack software engineer at <a className="link-style" href="https://www.chrobinson.com/en-us/" target="_blank" rel="noreferrer">
             CH&nbsp;Robinson

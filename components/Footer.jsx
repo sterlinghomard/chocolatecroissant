@@ -9,11 +9,6 @@ export default function Footer() {
         alt='LinkedIn Icon'
       />
       <SocialButton  
-        href='https://github.com/daniel-black'
-        src='/icons/logo-github.svg'
-        alt='Github Icon'
-      />
-      <SocialButton  
         href='https://www.instagram.com/danblack__/'
         src='/icons/logo-instagram.svg'
         alt='Instagram Icon'
