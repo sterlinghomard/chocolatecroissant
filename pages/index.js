@@ -14,7 +14,7 @@ export default function Home() {
 
       <main className='max-w-xl leading-relaxed space-y-4'>
         <Picture />
-        <h1 className="text-2xl sm:text-3xl font-bold font-jslab">Hi! I'm Sterling Homard</h1>
+        <h1 className="text-2xl sm:text-3xl font-bold font-jslab">Hi! I&apos;m Sterling Homard</h1>
         <p>
           I&apos;m a full-stack software engineer at <a className="link-style" href="https://www.chrobinson.com/en-us/" target="_blank" rel="noreferrer">
             CH&nbsp;Robinson
