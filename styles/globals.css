@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .link-style {
+    @apply text-violet-800 hover:underline underline-offset-4 decoration-wavy font-semibold duration-300;
+  }
+}
+
 html,
 body {
   padding: 0;
